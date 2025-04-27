@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microcosm", "Microcosm\Microcosm.vcxproj", "{507BC0D7-D7F1-479B-8115-EB014710A8FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Debug|x64.ActiveCfg = Debug|x64
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Debug|x64.Build.0 = Debug|x64
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Debug|x86.Build.0 = Debug|Win32
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Release|x64.ActiveCfg = Release|x64
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Release|x64.Build.0 = Release|x64
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Release|x86.ActiveCfg = Release|Win32
+		{507BC0D7-D7F1-479B-8115-EB014710A8FF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CE50AF4-CEFB-4A03-B0F5-6403012FC2CD}
+	EndGlobalSection
+EndGlobal
