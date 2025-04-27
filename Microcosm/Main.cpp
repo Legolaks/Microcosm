@@ -1,7 +1,9 @@
+#define SDL_STATIC
 #include "SDL3/SDL.h"
 #include <vector>
 #include <cmath>
 #include <iostream>
+#include "Windows.h"
 #include "Core/AutoBattleSimulation.h"
 
 // Constants for the simulation
@@ -98,7 +100,8 @@ void RenderUnit(SDL_Renderer* renderer, Unit* unit)
     SDL_RenderFillRect(renderer, &rect);
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) 
+{
     SDL_Init(SDL_INIT_VIDEO);
     SDL_Window* window = SDL_CreateWindow("Auto Battle Simulation", WINDOW_WIDTH, WINDOW_HEIGHT, 0);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, NULL);
