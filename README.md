@@ -1,7 +1,7 @@
 # Microcosm
 The project is writtend on C++ and can be used with or without Unreal.
 The example uses SDL3 for visual representation. The SDL static library already linked in the project.
-Make sure you run it in win32 mode (I did onle x86 sal static lib)
+Make sure you run it in win32 mode (I did only x86 sdl static library)
 For more information about SDL library you can check here https://www.libsdl.org
 
 Instruction:
